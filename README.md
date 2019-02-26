@@ -1,6 +1,6 @@
 # Deploy Hugo on Render
 
-This is the [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) example deployed on Render at https://hugo.onrender.com.
+This is the [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) example deployed at https://hugo.onrender.com.
 
 ## Deploying
 
