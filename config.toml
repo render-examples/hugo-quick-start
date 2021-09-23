@@ -1,4 +1,85 @@
-baseURL = "https://hugo.onrender.com"
+baseURL = "https://future101.onrender.com"
 languageCode = "en-us"
-title = "Deploy Hugo on Render"
-theme = "ananke"
+title = "Future101"
+theme = "cactus"
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+name = "Drawings"
+url = "/drawings"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "Death clock: 1470/4430"
+url = "/"
+weight = 5
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[blackfriday]
+extensions = [
+  "laxHtmlBlocks",
+  "hardLineBreak"
+]
+
+
+[params]
+  colortheme="classic"
+  rss = "true"
+  googleAnalyticsAsync = "true"
+
+
+  # Home page settings
+  description = "Hello there! This is tiny, yet thriving digital garden where I document my interests, and the people I've meet and their interests. I dig fun VR and ML projects, painting illustrations, and computer vision engineer by practice. Oh and I climb too!"
+  mainSection = "posts" # your main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 10 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "/projects" # title link for projects list
+
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/adamwgoh"
+  [[params.social]]
+    name = "instagram"
+    link = "https://www.instagram.com/_casualpanda/?hl=en"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/AdamWeisenG/"
+
