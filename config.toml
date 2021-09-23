@@ -1,4 +1,4 @@
-baseURL = "future101.co"
+baseURL = "https://www.future101.co"
 languageCode = "en-us"
 title = "Future101"
 theme = "cactus"
