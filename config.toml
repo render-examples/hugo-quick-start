@@ -1,4 +1,4 @@
-baseURL = "https://future101.onrender.com"
+baseURL = "future101.co"
 languageCode = "en-us"
 title = "Future101"
 theme = "cactus"
@@ -19,7 +19,7 @@ url = "/tags"
 weight = 3
 
 [[menu.main]]
-name = "Death clock: 1470/4430"
+name = "Death clock: 1470/3900"
 url = "/"
 weight = 5
 
