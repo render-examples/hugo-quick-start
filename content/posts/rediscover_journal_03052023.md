@@ -1,6 +1,6 @@
 ---
 title: "On Upskilling and surviving a hard time"
-date: 2023-05-3T18:15:27+08:00
+date: 2023-05-03T18:15:27+08:00
 tags: ['blog']
 ---
 
