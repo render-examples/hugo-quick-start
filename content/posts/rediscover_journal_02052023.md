@@ -1,6 +1,6 @@
 ---
 title: "Rediscover journal(4May23) : Deploying MLFlow into containers"
-date: 2023-05-4T10:15:27+08:00
+date: 2023-05-04T10:15:27+08:00
 tags: ['blog']
 ---
 
