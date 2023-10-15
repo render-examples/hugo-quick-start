@@ -1,7 +1,7 @@
 ---
 title: "My NLP Interview Experience (9 June 2023)"
 date: 2023-06-09T10:15:27+08:00
-tags: ['blog']
+tags: ['blog', 'nlp', 'machine learning']
 ---
 
 A recent interview for a NLP position gave me an opportunity to delve into NLP problems and some good basic introductions to them. The topics that I looked into were related to semantic search and document deduplication. In this article (and with it, jupyter notebooks), I will dive into the domain semantic search.
